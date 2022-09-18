@@ -1,4 +1,3 @@
-const add = (x, y) => x + y;
 const sub = (x, y) => x + y;
 const mult = (x, y) => x * y;
 const div = (x, y) => x / y;
@@ -9,4 +8,4 @@ const div = (x, y) => x / y;
 //         throw new Error("Can't divide by 0")
 //     }
 // }
-module.exports = { add, sub, mult, div };
+module.exports = { sub, mult, div };
