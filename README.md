@@ -32,7 +32,6 @@ Complete the following steps to set up this project locally
 - [ ] Write a **unit test** for the `generateText` function
 - [ ] Ensure that all tests pass
 - [ ] Place the test block inside a `describe` method
-- [ ] 
 
 ### Class Demo - Part II: Unit Test `validateText`
 - [ ] Write unit tests for the `validateText` function to ensure that:
@@ -56,4 +55,5 @@ Complete the following steps to set up this project locally
 - [ ] Put all `math.js` tests in a `describe` block
 
 ### Small Group Exercises - Part II: 
+
 

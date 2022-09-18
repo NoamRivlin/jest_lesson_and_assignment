@@ -2,7 +2,7 @@ const {
   generateText,
   validateText,
   validateAndReturn,
-} = require("./textValidation");
+} = require("../textValidation");
 
 //Unit Test are fully isolated (e.g., testing one function)
 //generateText works with input and output that does not use any other functions
