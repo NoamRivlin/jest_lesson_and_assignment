@@ -33,7 +33,6 @@ describe("validateText works", () => {
 
 //Integration tests ensure that component collaborations work as expected.
 //e.g., testing a function that calls a function (or has dependencies)
-//WRITE A COUPLE OF THESE WHERE YOU GET A LOT OF BANG FOR YOUR BUCK
 describe("validateAndReturn works", () => {
   it("outputs dog name and breed", () => {
     const dogText = "Melvin";
@@ -41,6 +40,3 @@ describe("validateAndReturn works", () => {
     expect(validateAndReturn(dogText, breed)).toBe("Melvin is a Terrier");
   });
 });
-
-//End-to-End test full flow, validating the DOM after a user click
-//WRITE A FEW OF THESE

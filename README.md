@@ -21,14 +21,28 @@ Complete the following steps to set up this project locally
 - [ ] Run `npm test` to run tests
 
 ## Class Demo
-### Class Demo - Part I: Unit Test
+### Class Demo - Part I: Unit Test `generateText`
 - [ ] Navigate to the `class_demo` folder
-- [ ] Create a `math.spec.js` file for `math.js` in the `__tests__` folder
-- [ ] Import `const { add } = require("../math");` to `math.js` test file
-- [ ] Write a **unit test** for the `add` function
+- [ ] View the code in the `textValidation.js` file
+- [ ] **Answer the questions:** 
+    - [ ] What do you need to test?
+    - [ ] What types of tests will you be writing for each function?
+- [ ] Create a `spec` file for `textValidation.js` in the `__tests__` folder
+- [ ] Import `const { generateText, validateText, validateAndReturn } = require("./textValidation")` to the `textValidation.js` test file
+- [ ] Write a **unit test** for the `generateText` function
+- [ ] Ensure that all tests pass
+- [ ] Place the test block inside a `describe` method
+- [ ] 
 
-### Class Demo - Part II: Unit and Integration Test
+### Class Demo - Part II: Unit Test `validateText`
+- [ ] Write unit tests for the `validateText` function to ensure that:
+    - [ ] `validateText` outputs `true` when the input is a text string
+    - [ ] `validateText` outputs `false` when the input is empty
+    - [ ] `validateText` outputs `false` when the input is a number
+- [ ] Place all unit tests in a describe block
 
+### Class Demo - Part III: Integration Test `validateAndReturn`
+- [ ] Write an integration test for the `validateAndReturn` function
 
 ## Small Group Exercises
 
@@ -36,7 +50,7 @@ Complete the following steps to set up this project locally
 - [ ] Navigate to the `group_exercises` folder
 - [ ] Create a `__tests__` folder
 - [ ] Create a `spec` file in the `__tests__` folder for the `math.js` file
-- [ ] Import `const { sub, mult, div } = require("../math");` to `math.js` test file
+- [ ] Import `const { add, sub, mult, div } = require("../math");` to `math.js` test file
 - [ ] Write **unit tests** for each math function
 - [ ] Ensure that all tests pass
 - [ ] Put all `math.js` tests in a `describe` block
