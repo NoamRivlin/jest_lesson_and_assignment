@@ -14,7 +14,8 @@
     ```
 - [x] Created `.gitignore` and added `node_modules` to file
 
-### Student Project Setup
+## Student Project Setup
+Complete the following steps to set up this project locally
 - [ ] Fork and clone this repository
 - [ ] Run `npm i` to install dependencies
 - [ ] Run `npm test` to run tests
