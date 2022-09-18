@@ -1,3 +1,9 @@
+//Whenever you write a test, you will follow the steps:
+// 1. Import the function to test
+// 2. give an input to the function
+// 3. define what to expect as the output
+// 4. check if the function produces the expected output
+
 const { add, sub, mult, div } = require("../math");
 
 //Test method is provided by Jest and is where we run our tests
