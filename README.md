@@ -39,6 +39,7 @@ Complete the following steps to set up this project locally
 - [ ] Write a **unit test** for the `generateText` function
 - [ ] Ensure that all tests pass
 - [ ] Place the test block inside a `describe` method
+- [ ] Run `npx jest --coverage` to view code test coverage
 
 ### Class Demo - Part II: Unit Test `validateText`
 
@@ -64,9 +65,21 @@ Complete the following steps to set up this project locally
 - [ ] Ensure that all tests pass
 - [ ] Put all `math.js` tests in a `describe` block
 
-### Small Group Exercises - Part II:
+### Small Group Exercises - Part II: Unit Test `filterByTerm` in `searchFilter.js` file
 
 - [ ] Create a `spec` file in the `__tests__` folder for the `searchFilter.js` file
 - [ ] Import the function you want to test to `searchFilter.js` test file
 - [ ] Write a **unit test** for the target function
 - [ ] Ensure that all tests pass
+- [ ] Run `npx jest --coverage` to view code test coverage
+
+### Small Group Exercises - Part III: Write Unit and Integration Tests for Functions in `validatedDivision.js` file
+
+- [ ] Determine which test cases you will write for each function in the `validatedDivision.js` file
+  - [ ] Be sure to test all possible outputs for each function
+- [ ] Write unit and integration tests
+- [ ] Ensure that all tests pass
+
+### Small Group Exercises - Challenge
+- [ ] Write a `beforeAll` block that logs `setup` before all tests are run in the `validatedDivision.js` test file
+- [ ] Use the appropriate method to log `test` before each test in the `validatedDivision.js` test file runs
