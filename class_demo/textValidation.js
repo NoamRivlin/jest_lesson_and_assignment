@@ -7,7 +7,7 @@ const validateText = (text) => {
     //removes whitespace from both sides of a string.
     return false;
   }
-  if (typeof text === "number") {
+  if (typeof text === 'number') {
     return false;
   }
 
@@ -16,9 +16,13 @@ const validateText = (text) => {
 
 const validateAndReturn = (dogText, breed) => {
   if (!validateText(dogText) || !validateText(breed)) {
-    return "Text not valid";
+    return 'Text not valid';
   }
   return generateText(dogText, breed);
 };
 
+// module.exports = { generateText, validateText, validateAndReturn };
+//try using es6 export and import instead
 module.exports = { generateText, validateText, validateAndReturn };
+
+console.log('commit test');
